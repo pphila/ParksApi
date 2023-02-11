@@ -1,4 +1,9 @@
+using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using System.Linq;
+
 
 namespace NationalParkApi.Models
 {
@@ -12,6 +17,9 @@ namespace NationalParkApi.Models
     [Required]
     [StringLength(20)]
     public string State { get; set; }
+    [Required]
+    [RegularExpression("^(state|national)$", ErrorMessage = "Type must be either 'state' or 'national'.")]
+    public string Type { get; set; }
     [Required]
     public string Description { get; set; }
     [Required]
