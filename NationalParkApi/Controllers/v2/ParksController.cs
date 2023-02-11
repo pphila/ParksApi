@@ -30,7 +30,7 @@ namespace NationalParkApi.Controllers.v2
 
       if (state != null)
       {
-        query = query.Where(e => e.State == state)
+        query = query.Where(e => e.State == state);
       }
 
       return await query.ToListAsync();
