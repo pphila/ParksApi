@@ -39,11 +39,11 @@ An API that functions as parks archive for those that love the natural and sceni
   2. Follow the prompts throught the installation of the program. Using default settings as they originally appear in the setup.
   
   #### File and Package Installation
-    - _Using your terminal, clone or download this project onto your local machine._
-    - _Open the project via your text editor or IDE_
-    - _ `$ cd` into the production file 'NationalParkApi' and enter `$ dotnet restore` to install the necessary packages for this program._
-    - _Add in a .gitignore with `obj`, `bin`, `appsettings.json`, `appsettings.*.json` within.
-    - _Initialize project, add .gitignore, and commit your the changes_
+  - Using your terminal, clone or download this project onto your local machine.
+  - Open the project via your text editor or IDE.
+  - `$ cd` into the production file 'NationalParkApi' and enter `$ dotnet restore` to install the necessary packages for this program.
+  - Add in a .gitignore with `obj`, `bin`, `appsettings.json`, `appsettings.*.json` within.
+  - Initialize project, add .gitignore, and commit your the changes.
   
   #### Setting Up the Database
    - _In the production file enter `$ touch appsettings.json` within your terminal_
