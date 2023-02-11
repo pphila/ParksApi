@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<NationalParkApiContext>(
                 DbContextOptions => DbContextOptions
                     .UseMySql(
-                        builder.Configuration["ConnectionStrings:DegaultConnection"],
+                        builder.Configuration["ConnectionStrings:DefaultConnection"],
                         ServerVersion.AutoDetect(builder.Configuration["ConnectionStrings:DefaultConnection"]
                         )
                     )
